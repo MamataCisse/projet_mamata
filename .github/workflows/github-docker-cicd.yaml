@@ -43,7 +43,7 @@ jobs:
         - name: Install dependencies
           run: |
             python -m pip install --upgrade pip
-            if [ -f requirements.txt ]; then pip install -r requirements.txt -c wrapt.txt; fi
+            if [ -f requirements.txt ]; then pip install -r requirements.txt -c constraints.txt; fi
 # The third step installs the project dependencies.
 
         - name: Format
