@@ -72,6 +72,6 @@ toml==0.10.2
 tzdata==2024.1
 urllib3==2.2.3
 Werkzeug==3.0.4
-wrapt==1.16.0
+wrapt==1.14.0
 black==23.7.0
 pylint==2.12.2
