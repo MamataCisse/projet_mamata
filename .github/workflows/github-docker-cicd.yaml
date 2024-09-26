@@ -16,7 +16,7 @@ on:
     - main
   pull_request:
     branches:
-    - main
+    - main 
 
 # this pipeline consists of a two jobs named ci_pipeline
 
