@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  # Backend Service (Flask)
+  backend:
+    image: streamlit_app:latest
+    # build:
+    #   context: ./
+    ports:
+      - "5000:5000" 
+    # volumes:
+    #   - ./backend:/app  # Mount the backend code for live updates
+    # environment:
+    #   - FLASK_ENV=development  # Optional: sets Flask to dev mode
+
+  # Frontend Service (Streamlit)
+  frontend:
+    image: frontend_stream:latest
+    # build:
+    #   context: ./frontend
+    ports:
+      - "8501:8501"  # Streamlit runs on port 8501 by default
+    volumes:
+      - ./frontend:/app  # Mount the frontend code for live updates
+    depends_on:
+      - backend
