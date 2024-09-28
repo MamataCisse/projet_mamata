@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mamat/Documents/projet_mamata/pipeline/mlruns/651422074931023092/af6fc4cc893944e6bd0b1cf82ef8bded/artifacts
+end_time: 1727385657050
+entry_point_name: ''
+experiment_id: '651422074931023092'
+lifecycle_stage: active
+run_id: af6fc4cc893944e6bd0b1cf82ef8bded
+run_name: resilient-mole-103
+run_uuid: af6fc4cc893944e6bd0b1cf82ef8bded
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727385637687
+status: 4
+tags: []
+user_id: mamat
